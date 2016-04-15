@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.peter.demo">
+
+    <application
+        android:name=".app.BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="9eb737c7bbe85cd8d714138d76400f28" />
+
+        <activity
+            android:name=".activity.AppStartActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.weather.ChooseAreaActivity" />
+        <activity android:name=".activity.box.MainActivity" />
+        <activity android:name=".activity.word.WordListActivity" />
+        <activity android:name=".activity.gif.GifPlayActivity" />
+        <activity android:name=".activity.metric.MetricActivity" />
+        <activity android:name=".activity.hotel.HotelActivity" />
+        <activity android:name=".activity.recyclerview.RecyclerViewActivity" />
+        <activity android:name=".activity.DrawableActivity" />
+        <activity android:name=".activity.drawlayout.DrawLayoutActivity" />
+        <activity android:name=".activity.viewpager.ViewPagerActivity" />
+        <activity android:name=".activity.scrollerview.ScrollerViewActivity" />
+        <activity android:name=".activity.map.BasicMapActivity" />
+        <activity android:name=".activity.map.LocationModeSourceActivity" />
+        <activity android:name=".activity.sms.SmsActivity" />
+        <activity android:name=".activity.card2d.Card2dActivity" />
+        <activity android:name=".activity.custommenu.CustomMenuActivity" />
+        <activity android:name=".activity.multouch.MulTouchActivity" />
+        <activity android:name=".activity.multidown.MultiDownloadActivity" />
+        <activity android:name=".activity.designpatterns.MainActivity" />
+
+        <service android:name=".service.AutoUpdateService" />
+        <receiver android:name=".receiver.AutoUpdateReceiver" />
+
+        <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 监听短信权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- 发送短信权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

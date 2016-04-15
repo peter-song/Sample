@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="common_bg">#E7E7E7</color>
+    <color name="light_type">#0000FF</color>
+    <color name="lightblack">#ff202020</color>
+    <color name="textCommon">#ff4d79b6</color>
+    <color name="textTime">#ffd418</color>
+    <color name="wether_4b">#4B74AF</color>
+    <color name="wether_ce">#CECECE</color>
+    <color name="yellow_FF">#FF9B00</color>
+    <color name="yellow">#f8b62d</color>
+
+    <color name="home_date_txt_color">#3C6384</color>
+    <color name="home_menu_txt_color_select">#4B9BE2</color>
+    <color name="home_menu_txt_color_no_select">#FFFFFD</color>
+    <color name="common_bottom_txtColor">#CBCBC9</color>
+    <color name="home_announcement_bgColor">#002742</color>
+    <color name="home_announcement_txtColor">#527298</color>
+    <color name="home_line_bgColor">#001B31</color>
+    <color name="pickup_content_bgColor">#F4F5F5</color>
+    <color name="pickup_hint_txtColor">#495864</color>
+    <color name="pickup_btn_num_txtColor">#40668B</color>
+    <color name="pickup_et_num_txtColor">#40668B</color>
+
+    <color name="state_item_pressed">#aaff0000</color>
+    <color name="state_item_normal">#44ff0000</color>
+
+</resources>

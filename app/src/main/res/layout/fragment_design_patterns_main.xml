@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.peter.demo.activity.scrollerview.MyScrollview
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="URL类图图示样例"
+                android:textSize="30sp" />
+
+            <com.peter.demo.activity.scrollerview.MyGridView
+                android:id="@+id/listview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="设计原则"
+                android:textSize="30sp" />
+
+            <com.peter.demo.activity.scrollerview.MyGridView
+                android:id="@+id/listview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="创建型"
+                android:textSize="30sp" />
+
+            <com.peter.demo.activity.scrollerview.MyGridView
+                android:id="@+id/listview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="结构型"
+                android:textSize="30sp" />
+
+            <com.peter.demo.activity.scrollerview.MyGridView
+                android:id="@+id/listview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="行为型"
+                android:textSize="30sp" />
+
+            <com.peter.demo.activity.scrollerview.MyGridView
+                android:id="@+id/listview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3" />
+        </LinearLayout>
+
+    </com.peter.demo.activity.scrollerview.MyScrollview>
+
+</LinearLayout>

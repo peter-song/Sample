@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/color_044fb6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_21"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_40"
+        android:gravity="center_horizontal"
+        android:text="操作提示"
+        android:textColor="@color/color_ffffff"
+        android:textSize="@dimen/sp_28" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:gravity="center_horizontal"
+        android:text="xx"
+        android:textColor="@color/color_ffffff"
+        android:textSize="@dimen/sp_22" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dp_36"
+        android:background="@color/dilog_pressed_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_80"
+            android:layout_weight="1"
+            android:background="@drawable/button_dialog_gray_style"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/dilog_pressed_color" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_80"
+            android:layout_weight="1"
+            android:background="@drawable/button_dialog_gray_style"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+</LinearLayout>

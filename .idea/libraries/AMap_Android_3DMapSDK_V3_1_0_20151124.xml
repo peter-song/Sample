@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AMap_Android_3DMapSDK_V3.1.0_20151124">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_map/libs/AMap_Android_3DMapSDK_V3.1.0_20151124.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

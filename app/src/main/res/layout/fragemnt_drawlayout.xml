@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- 下层显示的主要内容 -->
+    <LinearLayout
+        android:id="@+id/main_content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c9abab"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/user_huodong_shouye_xiaoxi_btn" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/user_personal_zone_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_left2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/user_huodong_shouye_xiaoxi_btn" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_right2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/user_personal_zone_menu" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 左侧滑动栏 -->
+    <LinearLayout
+        android:id="@+id/ll_left_layout"
+        android:layout_width="260dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left">
+
+        <include layout="@layout/menu_layout_left" />
+    </LinearLayout>
+
+    <!-- 右侧滑动栏 -->
+    <LinearLayout
+        android:id="@+id/ll_right_layout"
+        android:layout_width="260dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right">
+
+        <include layout="@layout/menu_layout_right" />
+
+        <include layout="@layout/menu_layout_right2" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

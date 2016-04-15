@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48-5815cae69abe115dad757522d28fbb59686ee342.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/lib_map/unspecified/jars/libs/AMap_Android_3DMapSDK_V3.1.0_20151124.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3defe0196be8eb94f9fc28b4bf4b01cf267b9ce4">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/AMap_Android_3DMapSDK_V3.1.0_20151124-a5c49a637c1f0964d7d0ca9c2906b46e36f8645d.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01e77547ff425798253095aec65ca7286cc0cdcb">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/classes-35f2d8947f7536b4e1476d1c1ba5608784db6293.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/picasso-2.2.0-e1765df45c24eaf0e3e6918344a6730d109df85c.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/lib_map/unspecified/jars/libs/AMap_Services_V2.7.0_20151125.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7eac53aff3958c7447c434fe376c8c978a2f9c5c">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/AMap_Services_V2.7.0_20151125-b3aad01ce511ad9fb6ed2c52e140824a168e91dc.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-f51873e8ab42583246b865fbe0a89835be6c44e8.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/gson-2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bd858833cacb4e6742f7698649fb874a360e230f">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/gson-2.1-c2d73e8ce3092848d482d170cbebc79f0e18f0ea.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.4.1.1/c8d96f6fd2bcc179c312da33ee670a71188cc60d/httpclient-4.4.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/httpclient-4.4.1.1-0b22f476223dc6d53a13692f90c4e6879b2017e6.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/classes-c563270c989a1699459f212da82faca726670cc0.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-5615763fbbab1667770ae9fd8ebfc1fa2369f0ea.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48-f99df25a497d17e17c8f2f281a24c75890737bb7.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-cc67277cab31d852c3fa0f07d167f0ad7fc09d06.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/classes-e23136b4370d9b6c1fe7c589b8ae5a49be75d07c.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/logback-android-1.1.1-4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9aaa842dff7ada833bbc6ca2bf92b6680b29a5da">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/logback-android-1.1.1-4-4c3b361d1f323374314cfa0a1ca00b179a2fdda0.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/common/unspecified/jars/libs/slf4j-api-1.7.12.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="387a5ecb2fa27eef48036d666b060d8b65f272e1">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.12-4092a41b22756ca85d4e15c0f801b06ef6d10e8e.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/lib_map/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="128890cbdca0077cdcaa3b4eac2cd67290a8d6bf">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/classes-2054b0df1f425569290ed5e328c00f5423367ef0.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/classes-93ec39316cea32760e4670f5be021cf5b1b40080.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/Git/Sample/app/build/intermediates/exploded-aar/Sample/lib_map/unspecified/jars/libs/AMap_Location_v2.0.0_20151117.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fbd0189f0d86bbfa558b2c2344ea3f3932a2ad35">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/AMap_Location_v2.0.0_20151117-54ee656e5d67663c16847cb1e1e2d6c64dda2ac7.jar" />
+    </item>
+    <item
+        jar="/Users/songzhongkun/android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/songzhongkun/Git/Sample/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-adf77ff812acb0f56a8732d4dd234966cf682f54.jar" />
+    </item>
+
+</items>

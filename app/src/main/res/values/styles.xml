@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="iv_logo">
+        <item name="android:layout_width">@dimen/logo_iv_width</item>
+        <item name="android:layout_height">@dimen/logo_iv_height</item>
+    </style>
+
+    <style name="iv_currentTime">
+        <item name="android:layout_width">@dimen/current_iv_time_width</item>
+        <item name="android:layout_height">@dimen/current_iv_time_height</item>
+    </style>
+
+    <style name="btn_pickupNum">
+        <item name="android:layout_width">@dimen/pickup_btn_num_width</item>
+        <item name="android:layout_height">@dimen/pickup_btn_num_height</item>
+    </style>
+
+    <style name="rl_goHome">
+        <item name="android:layout_width">@dimen/rl_return_main_width</item>
+        <item name="android:layout_height">@dimen/rl_return_main_height</item>
+    </style>
+
+    <style name="iv_goHomeImg">
+        <item name="android:layout_width">@dimen/iv_go_home_width</item>
+        <item name="android:layout_height">@dimen/iv_go_home_height</item>
+    </style>
+
+    <style name="et_pickupNum">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:numeric">integer</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:textColor">@color/pickup_et_num_txtColor</item>
+    </style>
+
+</resources>

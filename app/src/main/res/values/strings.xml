@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">扭转乾坤</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_exit">再按一次退出应用</string>
+
+    <!-- weather -->
+    <string name="China">中国</string>
+    <string name="loading">正在加载</string>
+    <string name="loadFail">加载失败</string>
+    <string name="timeFormat">yyyy年M月d日</string>
+    <string name="synchronousing">同步中...</string>
+    <string name="synchronousFail">同步失败</string>
+    <string name="today">今天</string>
+    <string name="send">发布</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="chars">~</string>
+    <string name="justNow">刚刚</string>
+
+    <!-- box -->
+    <string name="login_step">登录</string>
+    <string name="delivery_login">投递登录</string>
+    <string name="deposit_login">寄存登录</string>
+    <string name="recharge_login">充值登录</string>
+    <string name="search_login">查询登录</string>
+    <string name="pickup_step">取件</string>
+    <string name="inputMsg_step">输入包裹信息</string>
+    <string name="selectBox_step">选择箱体</string>
+    <string name="finish_step">完成</string>
+    <string name="login_hint">请输入手机号及验证码，也可以直接刷卡或指纹进行绑定</string>
+    <string name="pickupInput_hint">请输入取件密码</string>
+    <string name="phoneInput_hint">请输入手机号</string>
+    <string name="courierNumInput_hint">请输入运单号</string>
+    <string name="codeInput_hint">请输入验证码</string>
+    <string name="getCode">获取验证码</string>
+    <string name="agreeProtocol">同意近邻宝使用协议</string>
+    <string name="operation_hint">操作提示 </string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="username">用户名：</string>
+    <string name="balance">余额：</string>
+    <string name="delivery">投递</string>
+    <string name="deposit">寄存</string>
+    <string name="deliveryHistory">投递记录</string>
+    <string name="depositHistory">寄存记录</string>
+    <string name="deliveryHistory_hine">可修改未取包裹的手机号或直接回收包裹,也可跳过完成投递</string>
+    <string name="delive_hint">请输入运单号和手机号</string>
+    <string name="deposit_hint">请输入手机号</string>
+    <string name="phoneEmpty_hint">手机号不能为空</string>
+    <string name="codeEmpty_hint">验证码不能为空</string>
+    <string name="courierNumEmpty_hint">运单号不能为空</string>
+    <string name="user_delivery">用户投递</string>
+    <string name="user_deposit">用户寄存</string>
+    <string name="selectBox_hint">请选择箱子的大小</string>
+    <string name="countdown">倒计时：100</string>
+    <string name="use_text1">使用一次需</string>
+    <string name="use_text2">个金币</string>
+    <string name="BACK">返&#160;&#160;回</string>
+    <string name="LOGIN">登&#160;&#160;录</string>
+    <string name="OK">确&#160;&#160;定</string>
+    <string name="RETURN">返&#160;&#160;回</string>
+    <string name="EXIT">退&#160;&#160;出</string>
+    <string name="UPDATE">修&#160;改</string>
+    <string name="GET_BACK">取&#160;回</string>
+    <string name="deliveryGoon">继续投递</string>
+    <string name="deliveryFinish">投递完成</string>
+    <string name="currentDelivery">本次投递</string>
+    <string name="currentDeposit">本次寄存</string>
+    <string name="notTakePackage">未取包裹</string>
+    <string name="searchReservation">查询预订</string>
+    <string name="deliveryNum">运单号</string>
+    <string name="recipient">收件人</string>
+    <string name="boxNum">箱号</string>
+    <string name="operation">操作</string>
+    <string name="return_hine">返回主界面，是否继续？</string>
+    <string name="delivery_finish">投递完成!</string>
+    <string name="agreeProtocolCanLogin">必须同意使用协议才能完成登录！</string>
+    <string name="useProtocol">使用协议</string>
+    <string name="bandCard">绑定投递卡</string>
+    <string name="bandCard_hint">请输入手机号获取验证码后进行绑定</string>
+    <string name="unBandCard_hint">请输入手机号获取验证码后进行结解除绑定</string>
+    <string name="band">绑&#160;&#160;定</string>
+    <string name="band_access">绑定成功,请再次刷卡登录!</string>
+    <string name="currentCardNum">当前卡号：</string>
+    <string name="select_pay_type">请选择支付方式</string>
+    <string name="select_recharge_type">请选择一种充值方式</string>
+    <string name="recharge">充值</string>
+    <string name="recharge_hint">\n\n充值1元\n可兑换金币100个</string>
+    <string name="notOpened_hint">此功能暂未开通!</string>
+    <string name="inputCardPwd_hint">请输入充值卡密码</string>
+    <string name="cardPwdNotNull_hint">充值卡密码不能为空!</string>
+    <string name="rechargeAccess">充值成功!</string>
+    <string name="rechargeFinish">完成充值</string>
+    <string name="pleasePay">请投币</string>
+    <string name="fileNotExist">文件不存在</string>
+    <string name="common_bottom_companyName">版权所有：中科富创（北京）科技有限公司</string>
+    <string name="common_bottom_serviceHotLine">客服热线：400-005-2708</string>
+    <string name="pickup_hint">请输入取件密码</string>
+    <string name="home_announcement">● 近邻宝是专业的24小时快递自助服务运营平台</string>
+    <string name="delete">删除</string>
+    <string name="go_home">返回首页</string>
+    <string name="home_menu_txt_pickup">取件</string>
+    <string name="home_menu_txt_delivery">投递</string>
+    <string name="home_menu_txt_deposit">寄存</string>
+    <string name="home_menu_txt_recharge">充值</string>
+    <string name="home_menu_txt_inquiry">查询</string>
+    <string name="home_menu_txt_help">帮助</string>
+    
+    <!--metric-->
+    <string name="widthPixels">屏幕宽度（像素）:</string>
+    <string name="heightPixels">屏幕高度（像素）:</string>
+    <string name="density">屏幕密度（0.75/1.0/1.5）:</string>
+    <string name="densityDpi">屏幕密度DPI（120/160/240）:</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_learn_fragment">LearnFragment</string>
+
+    <string name="layout1">LinearLayout1</string>
+    <string name="layout2">LinearLayout2</string>
+
+    <string name="fragment1">FragmentType1</string>
+    <string name="fragment2">FragmentType2</string>
+
+    <string name="num1">NO.1</string>
+    <string name="num2">NO.2</string>
+    <string name="num3">NO.3</string>
+    <string name="num4">NO.4</string>
+
+    <string name="btn1">Add fragment</string>
+    <string name="btn2">Replace fragment</string>
+    <string name="btn3">Remove fragment</string>
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="title">主页</string>
+    <string name="left">左边菜单</string>
+    <string name="right">右边菜单</string>
+
+    <!-- sms -->
+    <string name="mobile">请输入手机号</string>
+    <string name="toMobile">请输入转发手机号</string>
+    <string name="content">请输入短信内容</string>
+    <string name="success">发送成功</string>
+    <string name="registrSuccess">绑定成功</string>
+    <string name="unRegisterSuccess">解绑成功</string>
+    <string name="sendMsg">发&#160;&#160;送</string>
+    <string name="call">呼&#160;&#160;叫</string>
+    <string name="registr">绑&#160;&#160;定</string>
+    <string name="unRegistr">解&#160;&#160;绑</string>
+    <string name="notNull">手机号或短信内容不能为空</string>
+    <string name="phoneNotNull">手机号不能为空</string>
+
+</resources>
