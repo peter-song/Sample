@@ -34,6 +34,7 @@
         <activity android:name=".activity.DrawableActivity" />
         <activity android:name=".activity.drawlayout.DrawLayoutActivity" />
         <activity android:name=".activity.viewpager.ViewPagerActivity" />
+        <activity android:name=".activity.viewpager2.ViewPagerActivity" />
         <activity android:name=".activity.scrollerview.ScrollerViewActivity" />
         <activity android:name=".activity.map.BasicMapActivity" />
         <activity android:name=".activity.map.LocationModeSourceActivity" />

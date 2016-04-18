@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:indicator="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f9"
+    android:orientation="vertical">
+
+    <com.peter.common.view.HeaderView
+        android:id="@+id/hv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="7dp"
+        android:paddingTop="13dp">
+
+        <com.viewpagerindicator.TabPageIndicator
+            android:id="@+id/tpi_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <com.viewpagerindicator.UnderlinePageIndicator
+            android:id="@+id/upi_underLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            indicator:selectedColor="@color/red"
+            indicator:selectedLength="@dimen/width40" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddde8" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_collectList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

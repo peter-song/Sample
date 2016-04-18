@@ -48,4 +48,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile project(':common')
     compile project(':lib_map')
+    compile project(':ViewPagerIndicator')
 }

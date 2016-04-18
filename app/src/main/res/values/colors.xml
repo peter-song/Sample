@@ -29,4 +29,13 @@
     <color name="state_item_pressed">#aaff0000</color>
     <color name="state_item_normal">#44ff0000</color>
 
+    <!-- 文字颜色 -->
+    <color name="txt_color_white">#FFFFFF</color>
+    <color name="txt_color_black">#595e74</color>
+    <color name="txt_color_gray">#a5a9bc</color>
+    <color name="txt_color_green">#25ae5f</color>
+    <color name="txt_color_red">#ff6666</color>
+    <color name="txt_color_hint">#aaaaaa</color>
+    <color name="txt_color_hint1">#e5e5e5</color>
+
 </resources>

@@ -1,1 +1,1 @@
-include ':app', ':common', ':library', ':lib_map'
+include ':app', ':common', ':lib_map', ':ViewPagerIndicator'

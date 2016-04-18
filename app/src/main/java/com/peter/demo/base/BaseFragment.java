@@ -51,13 +51,6 @@ public abstract class BaseFragment extends Fragment {
     }
 
     /**
-     * 根据tag查找fragment
-     */
-    public Fragment findFragmentByTag(String tag) {
-        return ((BaseActivity) getActivity()).findFragmentByTag(tag);
-    }
-
-    /**
      * 打开一个新的fragment
      *
      * @param fragment

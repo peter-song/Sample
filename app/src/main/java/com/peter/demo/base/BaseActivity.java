@@ -81,21 +81,6 @@ public abstract class BaseActivity extends FragmentActivity {
     public abstract Fragment getFragment();
 
     /**
-     * 根据tag查找fragment
-     *
-     * @param tag
-     * @return
-     */
-    public Fragment findFragmentByTag(String tag) {
-        FragmentManager fragManager = getSupportFragmentManager();
-        if (null == fragManager) {
-            return null;
-        } else {
-            return fragManager.findFragmentByTag(tag);
-        }
-    }
-
-    /**
      * 打开新的fragment
      *
      * @param fragment
@@ -138,7 +123,10 @@ public abstract class BaseActivity extends FragmentActivity {
     public void onBackPressed() {
         FragmentManager fragmentManager = getSupportFragmentManager();
         int backEntryCount = fragmentManager.getBackStackEntryCount();
-        if (backEntryCount == 1) {
+        if (backEntryCount == 0) {
+            super.onBackPressed();
+            return;
+        } else if (backEntryCount == 1) {
             finish();
             return;
         }

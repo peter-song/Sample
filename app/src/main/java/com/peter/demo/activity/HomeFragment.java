@@ -34,9 +34,66 @@ import java.util.List;
  */
 public class HomeFragment extends BaseFragment implements AdapterView.OnItemClickListener {
     private GridView gridView;
-    private String[] names = {"悠闲天气", "近邻宝", "单词", "gif动画", "分辨率查看", "短信转发", "Hotel", "多线程断点续传下载", "RecyclerView", "DrawLayoutActivity", "ViewPager", "ScrollerView", "高德地图", "2d翻转", "自定义左右菜单", "多点触摸交互处理", "设计模式"};
-    private int[] imgIds = {R.mipmap.weather_logo, R.mipmap.box_logo, R.mipmap.word_logo, R.mipmap.gif_logo, R.mipmap.metric_logo, R.mipmap.sms_logo, R.mipmap.hotel_logo, R.mipmap.thread_logo, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher};
-    private Class[] clazzs = {ChooseAreaActivity.class, MainActivity.class, WordListActivity.class, GifPlayActivity.class, MetricActivity.class, SmsActivity.class, HotelActivity.class, MultiDownloadActivity.class, RecyclerViewActivity.class, DrawLayoutActivity.class, ViewPagerActivity.class, ScrollerViewActivity.class, LocationModeSourceActivity.class, Card2dActivity.class, CustomMenuActivity.class, MulTouchActivity.class, com.peter.demo.activity.designpatterns.MainActivity.class};
+    private String[] names = {
+            "悠闲天气",
+            "近邻宝",
+            "单词",
+            "gif动画",
+            "分辨率查看",
+            "短信转发",
+            "Hotel",
+            "多线程断点续传下载",
+            "RecyclerView",
+            "DrawLayoutActivity",
+            "ViewPager",
+            "ViewPager2",
+            "ScrollerView",
+            "高德地图",
+            "2d翻转",
+            "自定义左右菜单",
+            "多点触摸交互处理",
+            "设计模式"
+    };
+    private int[] imgIds = {
+            R.mipmap.weather_logo,
+            R.mipmap.box_logo,
+            R.mipmap.word_logo,
+            R.mipmap.gif_logo,
+            R.mipmap.metric_logo,
+            R.mipmap.sms_logo,
+            R.mipmap.hotel_logo,
+            R.mipmap.thread_logo,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher
+    };
+    private Class[] clazzs = {
+            ChooseAreaActivity.class,
+            MainActivity.class,
+            WordListActivity.class,
+            GifPlayActivity.class,
+            MetricActivity.class,
+            SmsActivity.class,
+            HotelActivity.class,
+            MultiDownloadActivity.class,
+            RecyclerViewActivity.class,
+            DrawLayoutActivity.class,
+            ViewPagerActivity.class,
+            com.peter.demo.activity.viewpager2.ViewPagerActivity.class,
+            ScrollerViewActivity.class,
+            LocationModeSourceActivity.class,
+            Card2dActivity.class,
+            CustomMenuActivity.class,
+            MulTouchActivity.class,
+            com.peter.demo.activity.designpatterns.MainActivity.class
+    };
 
     @Override
     public int layoutId() {
