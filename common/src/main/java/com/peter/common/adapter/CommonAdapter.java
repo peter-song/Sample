@@ -10,7 +10,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * 公共adapter类
@@ -21,9 +23,29 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
     private List<T> mDatas;
     private final int mItemLayoutId;
 
+    /**
+     * 构造函数
+     *
+     * @param context      上下文对象
+     * @param datas        填充数据（List集合）
+     * @param itemLayoutId 布局文件
+     */
     public CommonAdapter(Context context, List<T> datas, int itemLayoutId) {
         this.mContext = context;
         this.mDatas = datas;
+        this.mItemLayoutId = itemLayoutId;
+    }
+
+    /**
+     * 构造函数
+     *
+     * @param context      上下文对象
+     * @param datas        填充数据（Set集合）
+     * @param itemLayoutId 布局文件
+     */
+    public CommonAdapter(Context context, Set<T> datas, int itemLayoutId) {
+        this.mContext = context;
+        this.mDatas = new ArrayList<T>(datas);
         this.mItemLayoutId = itemLayoutId;
     }
 
@@ -63,7 +85,7 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
         private View mConvertView;
 
         private ViewHolder(Context context, ViewGroup parent, int layoutId) {
-            mViews = new SparseArray<View>();
+            mViews = new SparseArray<>();
             mConvertView = LayoutInflater.from(context).inflate(layoutId, parent, false);
             mConvertView.setTag(this);
         }

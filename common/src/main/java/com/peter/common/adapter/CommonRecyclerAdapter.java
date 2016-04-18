@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by songzhongkun on 15/11/9 13:57.
@@ -20,10 +22,30 @@ public abstract class CommonRecyclerAdapter<T> extends RecyclerView.Adapter<Comm
     protected List<T> mDatas;
     private int mItemLayoutId;
 
+    /**
+     * 构造函数
+     *
+     * @param context      上下文对象
+     * @param datas        填充数据（List集合）
+     * @param itemLayoutId 布局文件
+     */
     public CommonRecyclerAdapter(Context context, List<T> datas, int itemLayoutId) {
         this.mInflater = LayoutInflater.from(context);
         this.mContext = context;
         this.mDatas = datas;
+        this.mItemLayoutId = itemLayoutId;
+    }
+
+    /**
+     * 构造函数
+     *
+     * @param context      上下文对象
+     * @param datas        填充数据（Set集合）
+     * @param itemLayoutId 布局文件
+     */
+    public CommonRecyclerAdapter(Context context, Set<T> datas, int itemLayoutId) {
+        this.mContext = context;
+        this.mDatas = new ArrayList<T>(datas);
         this.mItemLayoutId = itemLayoutId;
     }
 
@@ -61,7 +83,7 @@ public abstract class CommonRecyclerAdapter<T> extends RecyclerView.Adapter<Comm
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            mViews = new SparseArray<View>();
+            mViews = new SparseArray<>();
             mConvertView = itemView;
         }
 
